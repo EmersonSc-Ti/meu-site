@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot Vivo - Status Solicitações</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="img/VIVO-04.png">
+</head>
+<body>
+    <header class="header">
+    <div class="header-logo">
+        <img src="img/vivoaccess-logo.png" alt="Vivo Access Logo">
+    </div>
+    <nav class="header-nav">
+        <img src="img/vivoxp.png" alt="">
+    </nav>
+</header>
+
+
+
+    <div class="chat-container">
+        <div class="logo-container">
+    <img src="img/VIVO-03.png" alt="Vivo Access Logo" class="vivo-logo">
+    </div>
+
+        <div id="chat-box"></div>
+        <div class="input-area">
+            <input type="text" id="cpf-input" placeholder="Digite o CPF (somente números)">
+            <button onclick="consultarStatus()">Consultar</button>
+             <button onclick="limparChat()" class="limpar-btn">Limpar Chat</button>
+        </div>
+    </div>
+ <button id="toggle-chat" class="floating-button">
+    <img src="img/vivoaccess-logo.png" alt="Abrir Chat" />
+</button>
+    <script src="script.js"></script>
+</body>
+</html>
